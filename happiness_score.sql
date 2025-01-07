@@ -2,25 +2,24 @@
 DROP TABLE if exists happiness_score;
 DROP TABLE if exists coordinates;
 DROP TABLE if exists energy_use;
-DROP TABLE if exists gdp;
 DROP TABLE if exists gdp_percap;
 DROP TABLE if exists mobile;
 
 -- creating tables
 CREATE TABLE happiness_score (
 	"Country" varchar(100),
-	"Happiness Score - 2012" double precision,
-	"Happiness Score - 2013" double precision,
-	"Happiness Score - 2015" double precision,
-	"Happiness Score - 2016" double precision,
-	"Happiness Score - 2017" double precision,
-	"Happiness Score - 2018" double precision,
-	"Happiness Score - 2019" double precision,
-	"Happiness Score - 2020" double precision,
-	"Happiness Score - 2021" double precision,
-	"Happiness Score - 2022" double precision,
-	"Happiness Score - 2023" double precision,
-	"Happiness Score - 2024" double precision
+	"Happiness Score - 2012" FLOAT,
+	"Happiness Score - 2013" FLOAT,
+	"Happiness Score - 2015" FLOAT,
+	"Happiness Score - 2016" FLOAT,
+	"Happiness Score - 2017" FLOAT,
+	"Happiness Score - 2018" FLOAT,
+	"Happiness Score - 2019" FLOAT,
+	"Happiness Score - 2020" FLOAT,
+	"Happiness Score - 2021" FLOAT,
+	"Happiness Score - 2022" FLOAT,
+	"Happiness Score - 2023" FLOAT,
+	"Happiness Score - 2024" FLOAT
 );
 
 CREATE TABLE coordinates (
@@ -32,7 +31,7 @@ CREATE TABLE coordinates (
 CREATE TABLE energy_use (
 	"series" varchar(100),
 	"country" varchar(100),
-	"code" varchar (5),
+	"code" varchar(5),
 	"yr2000" double precision,
 	"yr2001" double precision,
 	"yr2002" double precision,
@@ -54,7 +53,7 @@ CREATE TABLE energy_use (
 CREATE TABLE gdp_percap (
 	"series" varchar(100),
 	"country" varchar(100),
-	"code" varchar (5),
+	"code" varchar(5),
 	"yr2000" double precision,
 	"yr2001" double precision,
 	"yr2002" double precision,
@@ -76,7 +75,7 @@ CREATE TABLE gdp_percap (
 CREATE TABLE mobile (
 	"series" varchar(100),
 	"country" varchar(100),
-	"code" varchar (5),
+	"code" varchar(5),
 	"yr2000" double precision,
 	"yr2001" double precision,
 	"yr2002" double precision,
