@@ -101,4 +101,4 @@ SELECT * FROM energy_use;
 SELECT * FROM gdp_percap;
 SELECT * FROM mobile;
 
--- additional checks
+-- additional queries
