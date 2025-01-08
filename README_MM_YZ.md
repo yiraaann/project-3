@@ -62,6 +62,7 @@ Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table
 ![alt text](<happiness erd.png>)
 
 Part 3: Import Data into Database (Yiran)
+
 Databased Used = 
 Reasons for Using this Database = 
 
