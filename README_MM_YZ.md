@@ -54,7 +54,7 @@ Using Jupyter Notebook to import the multiple excel files that were extracted fr
 
 Part 2: Create Databases (Yiran)
 
-Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table schema. We identified the dependendcies between each table (primary and foreign keys) and their relationships (one to one/one to many) and the relevant datatypes for each column.
+Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table schema. We identified the dependencies between each table (primary and foreign keys) and their relationships (one to one/one to many) and the relevant datatypes for each column.
 
 - Schema = happiness_score.sql
 - ERD Diagram = happiness erd.png
@@ -63,8 +63,16 @@ Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table
 
 Part 3: Import Data into Database (Yiran)
 
-Databased Used = 
-Reasons for Using this Database = 
+Databases Used = SQL
+Reasons for Using this Database:
+
+- relational databases like SQL ensure seamless integration of multiple data sources via primary & foreign keys
+- the Happiness Score and World Bank data came from different years, and SQL gives analysts the flexibility of selecting years (columns) of interest for side-by-side comparison or to compile into trends for other types of conclusions
+- nomenclature differences: ease of use in relating coordinate data, World Bank data, and Happiness Score data given differing dataset sizes
+
+![datasets](https://github.com/user-attachments/assets/49313031-c2c1-4cd2-9573-7e3333b02cd5)
+
+figure showing dataset sizes in relation to each other
 
 We created a SQL database in Postgres through pgAdmin. The table schema sql file generated through the ERD diagram was uploaded to create a table structure and dependencies. 
 
@@ -88,6 +96,7 @@ In our project, we prioritized ethical considerations, especially when handling 
 Happiness Data Years - 2012, 2013, 2015 - 2024
 
 - World Bank Group | World Development Indicators: https://databank.worldbank.org/indicator/NY.GDP.MKTP.CD/1ff4a498/Popular-Indicators# 
+World Bank "World Development Indicators" Data Years - 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015
 
 - Latitude and Longitude of countries: https://developers.google.com/public-data/docs/canonical/countries_csv
 
