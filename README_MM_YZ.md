@@ -88,6 +88,10 @@ Research Question:
 
 Part 5: Flask Integration (Sean)
 
+Here we are using flask as a way to use all the data that we cleaned and put into our sql(lite) to the use in our app.py to find the data we are using for Happiness Score, Mobile, Oil_sage, and GDP_percap. these are the datasets that we are using to compare the happiness score to each sub data set in the sql file 
+
+When looking at the app.py their are a lot of years we have to use to compare the datasets against each other for the happiness scores. In the app.py you can see we break down each data set to get all the data and being able to display it so that you can see it being compared to each other. In our app.py we are breaking down and finding the data we are looking for to compare Happiness Score to each of our databases. We want to see how the score impacts happiness against Oil_usage, Mobile, and GDP_percap.
+
 # Ethical Considerations:
 In our project, we prioritized ethical considerations, especially when handling data and interpreting results. All data used came from credible, publicly accessible sources, ensuring respect for intellectual property and privacy. Rather than oversimplifying a complex topic like happiness, we focused on identifying patterns and relationships, avoiding conclusions that suggest direct causation. To promote inclusivity, we chose universal metrics like GDP per capita, mobile cellular subscriptions, and power/oil usage—factors that are relevant across cultures. By documenting our ETL workflow, data transformations, and methodological decisions, making our work easy to reproduce and understand. This allows for full transparency with our analysis. Overall, our goal was to present our findings responsibly and highlight the exploratory nature of this dataset and how much more can be explored looking at various global indicators. 
 
