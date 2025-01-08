@@ -54,7 +54,7 @@ Using Jupyter Notebook to import the multiple excel files that were extracted fr
 
 Part 2: Create Databases (Yiran)
 
-Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table schema. We identified the dependendcies between each table (primary and foreign keys) and their relationships (one to one/one to many) and the relevant datatypes for each column.
+Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table schema. We identified the dependencies between each table (primary and foreign keys) and their relationships (one to one/one to many) and the relevant datatypes for each column.
 
 - Schema = happiness_score.sql
 - ERD Diagram = happiness erd.png
@@ -71,9 +71,8 @@ Reasons for Using this Database:
 - nomenclature differences: ease of use in relating coordinate data, World Bank data, and Happiness Score data given differing dataset sizes
 
 ![datasets](https://github.com/user-attachments/assets/49313031-c2c1-4cd2-9573-7e3333b02cd5)
-(figure showing dataset sizes in relation to each other)
-=======
 
+figure showing dataset sizes in relation to each other
 
 We created a SQL database in Postgres through pgAdmin. The table schema sql file generated through the ERD diagram was uploaded to create a table structure and dependencies. 
 
