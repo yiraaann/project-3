@@ -62,6 +62,7 @@ Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table
 ![alt text](<happiness erd.png>)
 
 Part 3: Import Data into Database (Yiran)
+
 Databases Used = SQL
 Reasons for Using this Database:
 
@@ -71,6 +72,8 @@ Reasons for Using this Database:
 
 ![datasets](https://github.com/user-attachments/assets/49313031-c2c1-4cd2-9573-7e3333b02cd5)
 (figure showing dataset sizes in relation to each other)
+=======
+
 
 We created a SQL database in Postgres through pgAdmin. The table schema sql file generated through the ERD diagram was uploaded to create a table structure and dependencies. 
 
