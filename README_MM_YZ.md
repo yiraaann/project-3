@@ -118,6 +118,7 @@ World Bank "World Development Indicators" Data Years = 2001, 2002, 2003, 2004, 2
 * Some data was split into a new row with only a portion of the country name displayed
 
 2) Inconsistent naming of countries across various platforms. Extensive ERD was required to confirm the country name and spellings. (60+ inconsistencies identified)
+   
 Examples:
 * Congo (Brazzaville), Congo, Congo (Kinshasa): Google Search = Officially known as the Republic of the Congo, the country is often called Congo (Brazzaville), with its capital added parenthetically, to distinguish it from neighbouring Democratic Republic of the Congo, which is often referred to by its acronym, the DRC, or called Congo (Kinshasa).
 * Palestine, Palestinian Territories, The Palestinian Territories
