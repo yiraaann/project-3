@@ -132,6 +132,7 @@ World Bank "World Development Indicators" Data Years - 2001, 2002, 2003, 2004, 2
 * Some data was split into a new row with only a portion of the country name displayed
 
 2) Inconsistent naming of countries across various platforms. Extensive ERD was required to confirm the country name and spellings. (60+ inconsistencies identified)
+
 Examples:
 * Congo (Brazzaville), Congo, Congo (Kinshasa): Google Search = Officially known as the Republic of the Congo, the country is often called Congo (Brazzaville), with its capital added parenthetically, to distinguish it from neighbouring Democratic Republic of the Congo, which is often referred to by its acronym, the DRC, or called Congo (Kinshasa).
 * Palestine, Palestinian Territories, The Palestinian Territories
@@ -139,9 +140,13 @@ Examples:
 3) Difficulty integrating data into HTML format 
 * Switched from Data Visualization Track to Data Engineering Track
 
+4) Difficulty transforming the .sql file to be readable by Flask
+* Read the .csv files into Flask to circumvent this issue
+  
 # Further Exploration | Suggestions:
 - Use MongoDB for database storage of country data due to the dynamic nature of the data. As a NoSQL database the flexible schema can be adjusted as country names have the potential to continually change over time. It's also better suited for more dynamic queries. The multiple spellings of the country names would all be included to accomodate the variation. 
-- Create a dashboard to display the comparisons 
+- Create an HTML dashboard to display the comparisons
+- Generate a story using Tableau to display the data 
 
 # Executive Summary & Conclusion: 
 ETL (Extract, Transform, Load) is essential for preparing data for analysis within the data science field. Since data is often dispersed across different sources and stored in varied formats, mastering ETL ensures you can consolidate and clean it effectively. Skills like adjusting data types, resolving formatting inconsistencies, and renaming/creating new columns are key to transforming raw data into useable  data to uncover valuable insights. Once transformed, storing the processed data in a PostgreSQL database ensures secure, structured, and efficient access for further analysis. Additionally, building a Flask application to interface with the database allows you to create a seamless API, making your cleaned data easily accessible to other applications and future HTML integration.
