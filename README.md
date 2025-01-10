@@ -91,7 +91,7 @@ Research Question:
 Sample Queries:
 - Happiest countries in 2024: Finland, Denmark, Iceland, Sweden, Israel
 - Countries with highest average happiness over the last 5 years: Finland, Denmark, Iceland, Netherlands, Switzerland
-- Least happy countries in 2024: Afghanistan, Levanon, Lesotho, Sierra Leone, Congo [DRC]
+- Least happy countries in 2024: Afghanistan, Lebanon, Lesotho, Sierra Leone, Congo [DRC]
 - Countries with the lowest (nonzero) average happiness over the last 5 years: Afghanistan, Zimbabwe, Botswana, Lebanon, Sierra Leone
 - Highest connectivity (mobile) in 2015: Hong Kong, United Arab Emirates, Kuwait, Bahrain, Saudi Arabia
 - Highest energy usage (oil) in 2013: Qatar, Iceland, Trinidad & Tobago, Bahrain, Kuwait
