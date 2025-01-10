@@ -154,6 +154,12 @@ ORDER BY "yr2015" DESC;
 -- most cellulary connected & happiest countries in 2015 were:
 -- Hong Kong, United Arab Emirates, Kuwait, Bahrain, Saudi Arabia
 
+-- Happiness scores in 2015
+SELECT "Country", "Happiness Score - 2015"
+FROM happiness_score
+GROUP BY "Country"
+ORDER BY "Happiness Score - 2015" DESC;
+
 -- Energy Usage in 2013: countries' happiness scores based on energy usage (kg of oil)
 SELECT "Country", "Happiness Score - 2013", "yr2013"
 FROM happiness_score
@@ -163,6 +169,12 @@ GROUP BY "Country", "yr2013"
 ORDER BY "yr2013" DESC;
 -- countries with highest energy usage and happiess in 2013 were:
 -- Qatar, Iceland, Trinidad & Tobago, Bahrain, Kuwait
+
+-- Happiness scores in 2013
+SELECT "Country", "Happiness Score - 2013"
+FROM happiness_score
+GROUP BY "Country"
+ORDER BY "Happiness Score - 2013" DESC;
 
 -- GDP per capita in 2012: countries' happiness scores based on Gross Domestic Product per capita
 SELECT "Country", "Happiness Score - 2012", "yr2012"
@@ -174,3 +186,8 @@ ORDER BY "yr2012" DESC;
 -- countries with highest GDP per capita and happiness scores in 2012 were:
 -- Luxembourg, Norway, Switzerland, Australia, Denmark
 
+-- Happiness scores in 2012
+SELECT "Country", "Happiness Score - 2012"
+FROM happiness_score
+GROUP BY "Country"
+ORDER BY "Happiness Score - 2012" DESC;
