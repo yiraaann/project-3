@@ -103,16 +103,22 @@ Observations:
 - Energy usage, measured in kg of oil used, also seems weakly related to happiness score. In 2013, for example, Iceland as one of the top 5 oil users had the 10th highest happiness score, but the next-highest happiness score of a top oil-using country was held by Qatar at rank 26.
 - GDP per capita seems to relate most strongly with happiness score. In 2012, for example, the top 5 countries with the highest GDP per capita (Luxembourg, Norway, Switzerland, Australia, Denmark) were all within the top 23 countries for happiness score.
 
-Part 5: Flask Integration (Sean)
+Part 5: Flask Integration (Michelle and Sean)
+
+We’re using Flask to access the cleaned data stored in CSV files through our project_3.py to bridge between databases, models, and end-users by enabling seamless data access and manipulation. This setup allows us to analyze and compare Happiness Scores with datasets like Mobile Subscriptions, Oil Usage, and GDP per Capita.
+
+In our project_3.py, we are building RESTful APIs, which are essential for connecting the backend of an application to its frontend or for enabling communication between different systems and applications. Five different API routes were generated that contain the JSON formatted data for Mobile Subcriptions (mobile), Oil Usage (energy_use), GDP per Capita (gsp_percap), Happiness Scores (happiness_score) and Coordinates (coordinates). This data can be used to further compare and display the data transformed through ETL.
 
 # Ethical Considerations:
 In our project, we prioritized ethical considerations, especially when handling data and interpreting results. All data used came from credible, publicly accessible sources, ensuring respect for intellectual property and privacy. Rather than oversimplifying a complex topic like happiness, we focused on identifying patterns and relationships, avoiding conclusions that suggest direct causation. To promote inclusivity, we chose universal metrics like GDP per capita, mobile cellular subscriptions, and power/oil usage—factors that are relevant across cultures. By documenting our ETL workflow, data transformations, and methodological decisions, making our work easy to reproduce and understand. This allows for full transparency with our analysis. Overall, our goal was to present our findings responsibly and highlight the exploratory nature of this dataset and how much more can be explored looking at various global indicators. 
 
 # Data Sources:
-- World Happiness Report: https://worldhappiness.report/data/ 
+- World Happiness Report: https://worldhappiness.report/data/
+  
 Happiness Data Years - 2012, 2013, 2015 - 2024
 
-- World Bank Group | World Development Indicators: https://databank.worldbank.org/indicator/NY.GDP.MKTP.CD/1ff4a498/Popular-Indicators# 
+- World Bank Group | World Development Indicators: https://databank.worldbank.org/indicator/NY.GDP.MKTP.CD/1ff4a498/Popular-Indicators#
+  
 World Bank "World Development Indicators" Data Years - 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015
 
 - Latitude and Longitude of countries: https://developers.google.com/public-data/docs/canonical/countries_csv
