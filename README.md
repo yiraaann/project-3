@@ -74,7 +74,7 @@ Reasons for Using this Database:
 
 ![datasets](https://github.com/user-attachments/assets/49313031-c2c1-4cd2-9573-7e3333b02cd5)
 
-figure showing dataset sizes in relation to each other
+[figure showing dataset sizes in relation to each other]
 
 We created a SQL database in Postgres through pgAdmin. The table schema sql file generated through the ERD diagram was uploaded to create a table structure and dependencies. 
 
@@ -87,6 +87,21 @@ Part 4: Findings and Queries - Tables Generated (Yiran)
 
 Research Question:
 - How does happiness change assessing connectivity, financial/economic factors/environmental factors?
+
+Sample Queries:
+- Happiest countries in 2024: Finland, Denmark, Iceland, Sweden, Israel
+- Countries with highest average happiness over the last 5 years: Finland, Denmark, Iceland, Netherlands, Switzerland
+- Least happy countries in 2024: Afghanistan, Levanon, Lesotho, Sierra Leone, Congo [DRC]
+- Countries with the lowest (nonzero) average happiness over the last 5 years: Afghanistan, Zimbabwe, Botswana, Lebanon, Sierra Leone
+- Highest connectivity (mobile) in 2015: Hong Kong, United Arab Emirates, Kuwait, Bahrain, Saudi Arabia
+- Highest energy usage (oil) in 2013: Qatar, Iceland, Trinidad & Tobago, Bahrain, Kuwait
+- Highest GDP per capita in 2012: Luxembourg, Norway, Switzerland, Australia, Denmark
+
+Observations:
+- Scandinavian countries (Finland, Denmark, Iceland, Netherlands, Switzerland) tend to have the highest happiness scores overall as well as on average. In addition, several of these countries (Norway, Switzerland, Denmark) tend to have the highest GDP per capita. Iceland also has high energy usage.
+- Connectivity, measured in mobile subscriptions, does not relate strongly to happiness score. None of the most-connected countries were even in the top 15 happiest countries in the years studied. In 2015, for example, United Arab Emirates had the 2nd highest number of mobile subscriptions but the 18th highest happiness score.
+- Energy usage, measured in kg of oil used, also seems weakly related to happiness score. In 2013, for example, Iceland as one of the top 5 oil users had the 10th highest happiness score, but the next-highest happiness score of a top oil-using country was held by Qatar at rank 26.
+- GDP per capita seems to relate most strongly with happiness score. In 2012, for example, the top 5 countries with the highest GDP per capita (Luxembourg, Norway, Switzerland, Australia, Denmark) were all within the top 23 countries for happiness score.
 
 Part 5: Flask Integration (Sean)
 
