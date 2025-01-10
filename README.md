@@ -109,7 +109,7 @@ We’re using Flask to access the cleaned data stored in CSV files through our p
 
 In our project_3.py, we are building RESTful APIs, which are essential for connecting the backend of an application to its frontend or for enabling communication between different systems and applications. Five different API routes were generated that contain the JSON formatted data for Mobile Subcriptions (mobile), Oil Usage (energy_use), GDP per Capita (gsp_percap), Happiness Scores (happiness_score) and Coordinates (coordinates). This data can be used to further compare and display the data transformed through ETL.
 
-![API routes]()
+![API routes](https://github.com/yiraaann/project-3/blob/main/API_routes.png)
 
 # Ethical Considerations:
 In our project, we prioritized ethical considerations, especially when handling data and interpreting results. All data used came from credible, publicly accessible sources, ensuring respect for intellectual property and privacy. Rather than oversimplifying a complex topic like happiness, we focused on identifying patterns and relationships, avoiding conclusions that suggest direct causation. To promote inclusivity, we chose universal metrics like GDP per capita, mobile cellular subscriptions, and power/oil usage—factors that are relevant across cultures. By documenting our ETL workflow, data transformations, and methodological decisions, making our work easy to reproduce and understand. This allows for full transparency with our analysis. Overall, our goal was to present our findings responsibly and highlight the exploratory nature of this dataset and how much more can be explored looking at various global indicators. 
