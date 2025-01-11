@@ -61,7 +61,7 @@ Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table
 - Schema = happiness_score.sql
 - ERD Diagram = happiness erd.png
 
-![alt text](<happiness erd.png>)
+![alt text](https://github.com/yiraaann/project-3/blob/main/Data/happiness%20erd.png)
 
 Part 3: Import Data into Database (Yiran)
 
